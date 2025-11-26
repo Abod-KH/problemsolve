@@ -18,7 +18,10 @@ public class Program
 
     public static void Main(string[] args)
     {
-        
-        Console.WriteLine(Wightcalc(4, 7));
+        Console.WriteLine("enter Wight of limak");
+        int a = int.Parse(Console.ReadLine()); 
+        Console.WriteLine("enter Wight of Bob");
+        int b = int.Parse(Console.ReadLine());
+        Console.WriteLine("need of years is " + Wightcalc(a, b));
     }
 }
